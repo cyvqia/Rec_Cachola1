@@ -1,0 +1,1 @@
+print("Sejam bem-vindos ao livro sobre algoritmos da Casa do Código.")

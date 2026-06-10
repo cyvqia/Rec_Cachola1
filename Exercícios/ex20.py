@@ -1,14 +1,5 @@
-programa 
-{  	 
- 	funcao inicio()  	{ 
- 	 	inteiro num 
- 	 	escreva("digite um numero inteiro:") 
- 	 	leia (num) 
- 
- 	 	se (num <0) { 
- 	 	 	escreva ("esse numero é negativo") } 
- 	 	 	senao { 
- 	 	 	 	escreva ("esse numero é positivo") 
- 	 	 	} 
- 	 	} 
-} 
+num1 = int(input("Digite um número: "))
+if num1 < 0:
+	print("O número é negativo.")
+elif num1 > 0:
+	print("O número é positivo.")

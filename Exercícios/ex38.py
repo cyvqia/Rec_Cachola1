@@ -1,10 +1,10 @@
 total = 0
-num = 0
-cont =0
+n = 0
+cont = 0
 
 while True:
-    num = int(input("digite um numero: "))
-    total = total + num
+    n = int(input("digite um numero: "))
+    total = total + n
     cont = cont + 1
     print (cont)
     

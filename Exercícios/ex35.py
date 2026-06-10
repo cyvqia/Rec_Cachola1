@@ -1,4 +1,4 @@
-contador = 0
+cont = 0
 notas1 = 0
 notas2 = 0
 notas3 = 0
@@ -6,7 +6,7 @@ maior = 0
 media = 0
 menor = 0
 
-while contador < 25:
+while cont < 25:
     notas = float(input("Digite a nota dos alunos: "))
 
     if notas >= 8:
@@ -21,11 +21,11 @@ while contador < 25:
         notas3 = notas3 + 1
         menor = notas
 
-    contador = contador + 1 
+    cont = cont + 1 
 
-print("de 25 alunos,os que tem notas maiores é:", notas1)
-print("maior nota é:", maior)
-print("de 25 alunos,os que tem notas medias é:", notas2)
-print("media é:", media)
-print("de 25 alunos,os que tem notas menores é:", notas3)
-print("menor nota é:", menor)
+print("De 25 alunos,os que tem notas maiores é:", notas1)
+print("Maior nota é:", maior)
+print("De 25 alunos,os que tem notas medias é:", notas2)
+print("A média é:", media)
+print("De 25 alunos,os que tem notas menores é:", notas3)
+print("Menor nota é:", menor)

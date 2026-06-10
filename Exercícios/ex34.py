@@ -1,12 +1,12 @@
-contador = 0
-maior = 0
+cont = 0
+alto = 0
 
-while contador < 12:
+while cont < 12:
     altura = float(input("Digite a altura do atleta: "))
 
     if altura >= 1.90:
-        maior = maior + 1
+        alto = alto + 1
 
-    contador = contador + 1 
+    cont = cont + 1
 
-print("de 12 atletas,os que tem altura igual a 1.90m ou mais é:", maior)
+print("De 12 atletas, os que tem altura igual a 1.90m ou mais é:", alto)

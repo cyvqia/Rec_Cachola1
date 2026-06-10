@@ -1,16 +1,16 @@
-total_num = 0
-contador = 0
+total = 0
+cont = 0
 maior = 0
 
-while contador < 10:
+while cont < 10:
     num = int(input("Digite um número: "))
 
-    if num >50:
+    if num > maior:
         maior = num
 
-    total_num = total_num + num
+    total = total + num
 
-    contador = contador + 1 
+    cont = cont + 1
 
 print("de 10 numeros lidos, o maior é:", maior)
-print("O total é:", total_num)
+print("O total é:", total)

@@ -1,27 +1,9 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro num
-		escreva ("digite um numero entre 1-7\n")
-		leia (num)
-
-		se (num == 1) {
-			escreva ("domingo") }
-			senao se (num == 2) {
-				escreva ("segunda") }
-				senao se (num == 3) {
-					escreva ("Terça") }
-					senao se (num == 4) {
-						escreva ("quarta") }
-						senao se (num ==5) {
-							escreva ("quinta") }
-							senao se (num == 6) {
-								escreva ("sexta") }
-								senao {
-									escreva ("sabado")
-								}
-					
-				}
-			}
+menu = input("----menu de sucos----\n L- Suco de Laranja\n M- Suco de Morango\n A- Suco de Acerola\n U- Suco de Uva\n")
+if menu == "L":
+	print("Esse suco obtem vitaminas C")
+elif menu == "M":
+	print("Esse suco obtem vitaminas A")
+elif menu == "A":
+	print("Esse suco obtem vitaminas C")
+else:
+	print("Esse suco obtem vitaminas E")

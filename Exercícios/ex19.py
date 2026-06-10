@@ -1,14 +1,8 @@
-programa 
-{  	 
- 	funcao inicio()  	{ 
- 	 	real gasolina, etanol, total  	 	 
- 	 	escreva ("digite o preço da gasolina:")  	 	leia (gasolina) 
- 	 	escreva ("digite o preço do etanol:")  	 	leia (etanol) 
- 	 	total = gasolina / etanol 
- 
- 	 	se (total >= 0.7) { 
- 	 	escreva ("compensa abastecer com gasolina") } 
- 	 	senao { 
- 	 	 	escreva ("compensa abastecer com etanol") 
- 	 	}  	} 
-} 
+gasolina = float(input("Digite o preço da gasolina: "))
+etanol = float(input("Digite o preço do etanol: "))
+total = gasolina / etanol
+
+if total >= 0.7:
+    print("Compensa abastecer com gasolina.")
+else:
+    print("Compensa abastecer com etanol.")

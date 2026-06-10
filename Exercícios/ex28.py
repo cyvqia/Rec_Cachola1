@@ -1,4 +1,3 @@
-print("--calculo de média--")
 n1 = float(input("Informe a nota do primeiro teste: "))
 n2 = float(input("Informe a nota da prova: "))
 qnt = int(input("Informe a quantidade de faltas: "))

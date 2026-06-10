@@ -2,9 +2,9 @@ cartela = []
 
 for linha in range (10):
     nova = []
-    valor = float(input("digite valor do seu pagamento: "))
+    valor = float(input("Digite valor do seu pagamento: "))
     nova.append(valor)
     cartela.append(nova)
 
 print(f"cartela: {cartela}")
-print ("hoje seu almoço é por conta da casa!")
+print ("Hoje seu almoço é por contesia da casa, parabéns!")

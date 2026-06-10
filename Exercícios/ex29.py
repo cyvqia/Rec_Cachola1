@@ -1,51 +1,27 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro num
-		escreva("digite um numero de 1-7")
-		leia (num)
-		
-		escolha
-(num) {
-			caso 1: 
-				escreva ("janeiro") 
-			pare
-			caso 2:
-				escreva ("fevereiro")
-			pare
-			caso 3:
-				escreva("março")
-			pare
-			caso 4: 
-				escreva ("abril") 
-			pare
-			caso 5:
-				escreva ("maio")
-			pare
-			caso 6:
-				escreva("junho")
-			pare
-			caso 7: 
-				escreva ("julho") 
-			pare
-			caso 8:
-				escreva ("agosto")
-			pare
-			caso 9:
-				escreva("setembro")
-			pare
-			caso 10: 
-				escreva ("outubro") 
-			pare
-			caso 11:
-				escreva ("novembro")
-			pare
-			caso 12:
-				escreva("dezembro")
-			pare
-				}
-			
-	}
-}
+num = int(input("Digite um numero de 1-12: "))
+if num == 1:
+	print("Janeiro")
+elif num == 2:
+	print("Fevereiro")
+elif num == 3:	
+	print("Março")
+elif num == 4:
+	print("Abril")
+elif num == 5:
+	print("Maio")
+elif num == 6:
+	print("Junho")
+elif num == 7:
+	print("Julho")
+elif num == 8:
+	print("Agosto")
+elif num == 9:
+	print("Setembro")
+elif num == 10:
+	print("Outubro")
+elif num == 11:
+	print("Novembro")
+elif num == 12:
+	print("Dezembro")
+else:
+	print("Número inválido")

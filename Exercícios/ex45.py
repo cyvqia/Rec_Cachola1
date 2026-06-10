@@ -1,26 +1,26 @@
-Senha = []
+senha = []
 
 for linha in range (6):
-    valor = input("digite a senha (em minusculo): ")
+    valor = input("Digite a senha (em minúsculo): ")
     if valor in["a", "e", "i", "o", "u"]:
-        Senha.append(valor)
+        senha.append(valor)
     else:
-        print("digito invalido, tente novamente!")
+        print("Digito inválido, tente novamente.")
         continue
 
 nova_senha = []
 
-for i in range (len(Senha)):
-    if Senha [i] == "a":
+for i in range (len(senha)):
+    if senha [i] == "a":
         nova_senha.append("z")
-    elif Senha [i] == "e":
+    elif senha [i] == "e":
         nova_senha.append("3")
-    elif Senha [i] == "i":
+    elif senha [i] == "i":
         nova_senha.append("L")
-    elif Senha [i] == "o":
+    elif senha [i] == "o":
         nova_senha.append("0")
-    elif Senha [i] == "u":
+    elif senha [i] == "u":
         nova_senha.append("$")
 
-print(f"senha: {Senha}")
-print(f"senha criptografada: {nova_senha}")
+print(f"Senha: {senha}")
+print(f"Senha criptografada: {nova_senha}")

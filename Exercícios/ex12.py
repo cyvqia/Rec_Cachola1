@@ -1,13 +1,5 @@
-programa 
-{  	 
-    funcao inicio()  	{ 
-        cadeia moeda  	 	inteiro qnt_moeda  	 	real valor_moeda, total 
-        escreva("digite uma moeda (ex dolar,real):") 
-        leia (moeda) 
-        escreva ("digite a quantidade dessa moeda:")  	 	leia (qnt_moeda) 
-        escreva("digite quanto vale essa moeda:") 
- 	 	leia (valor_moeda)  	 	total = (qnt_moeda * valor_moeda) 
-        escreva("moeda escolhida: ", moeda, ",quantidade: ", qnt_moeda, 
-",Valor atual da moeda: ",valor_moeda, "\ntotal:", total) 
-	}
-}
+moeda = input("Digite uma moeda (ex: Dólar, Real):")
+qnt_moeda = int(input("Digite a quantidade dessa moeda:"))
+valor_moeda = float(input("Digite quanto vale essa moeda:"))
+total = (qnt_moeda * valor_moeda)
+print("Moeda escolhida: ", moeda, ", Quantidade: ", qnt_moeda, ", Valor atual da moeda: ",valor_moeda, "\nTotal:", total)

@@ -28,7 +28,7 @@ while True:
 
         placa = input("Digite a placa: ")
 
-        contador = 0
+        cont = 0
 
         for i in range(2):
             for j in range(9):
@@ -39,20 +39,20 @@ while True:
 
                     print(f"Veículo estacionado na vaga [{i}][{j}]")
 
-                    contador = 1 #contador para verificar quantidade de vagas ocupadas
+                    cont = 1 #contador para verificar quantidade de vagas ocupadas
                     break
 
-            if contador == 1: 
+            if cont == 1: 
                 break
         #tratamento de erro
-        if contador == 0:
+        if cont == 0:
             print("Estacionamento lotado!")
 
     elif opcao == "3":
 
         placa = input("Digite a placa do veículo: ")
 
-        contador = 0
+        cont = 0
 
         for i in range(2):
             for j in range(9):
@@ -65,16 +65,17 @@ while True:
 
                     print("Vaga liberada!")
 
-                    contador = 1
+                    cont = 1
                     break
 
-            if contador == 1: #para o if
+            if cont == 1: #para o if
                 break
 
-        if contador == 0: #tratamento de erro
+        if cont == 0: #tratamento de erro
             print("Veículo não encontrado!")
 
     elif opcao == "4":
+        print("Saindo do sistema. Obrigado!")
         break
 
     else:

@@ -1,10 +1,9 @@
-
 def vogal(letra):
     vogal = ["a", "e", "i", "o", "u"]
     if letra in vogal:
-        print("é uma vogal")
+        print("É uma vogal.")
     else:
-        print("é uma consoante")
+        print("É uma consoante.")
 
 while True:
     letra = input("Informe uma letra: ")

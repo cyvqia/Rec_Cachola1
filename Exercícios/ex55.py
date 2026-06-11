@@ -1,9 +1,9 @@
-def reajustaGasolina(gasolina, reajuste):
+def reajusteGasolina(gasolina, reajuste):
     gasolina += reajuste
     return gasolina
 
 
-def reajustaEtanol(gasolina, etanol, reajuste):
+def reajusteEtanol(gasolina, etanol, reajuste):
     etanol += reajuste
     gasolina += reajuste * 0.27
     return gasolina, etanol
@@ -15,10 +15,10 @@ reajuste = float(input("Valor do reajuste: "))
 combustivel = input("Combustível do reajuste (G/E): ").upper()
 
 if combustivel == "G":
-    gasolina = reajustaGasolina(gasolina, reajuste)
+    gasolina = reajusteGasolina(gasolina, reajuste)
 
 elif combustivel == "E":
-    gasolina, etanol = reajustaEtanol(gasolina, etanol, reajuste)
+    gasolina, etanol = reajusteEtanol(gasolina, etanol, reajuste)
 
 else:
     print("Combustível inválido!")

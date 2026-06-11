@@ -33,7 +33,7 @@ def menu():
         elif op == 4:
             print(divisao(a, b))
         else:
-            print("Opção incorreta!!!")
+            print("Opção incorreta!")
     except:
         print("Dados incorretos!")
         

@@ -18,12 +18,13 @@ while True:
         for j in range(7):
             if onibus[i][j] == lugar:
                 onibus[i][j] = "X"
-                print("lugar vendido!")
+                print("Lugar vendido!")
                 break
 
             if onibus[i][j] == "X":
-                print("lugar já vendido.")
+                print("Lugar já vendido.")
 
-    op = input("Deseja comprar outro lugar? (s/n): ")
-    if op.lower() != "n":
+    op = input("Deseja comprar outro lugar? (Sim/Não): ")
+    if op.lower() != "sim":
+        print("Obrigado por comprar conosco!")
         break

@@ -1,7 +1,4 @@
-'''Há um detalhe importante:
- Python não possui passagem de parâmetros por referência
-da mesma forma que C++ ou Pascal.'''
-#passei o codigo de Python para Portugol<<<<
+'''O python não suporta esse exercício, então mudei para portugol para conseguir realizá-lo.'''
 
 algoritmo "entrega"
 
